@@ -48,8 +48,10 @@ WCHLink-E (Only work with WCHLink-E, no WCHLink).
 [Buy in Aliexpress](https://www.aliexpress.us/w/wholesale-WCHLink%2525252dE.html)
 
 ## Install wlink - WCH-Link(RV)
-
-`cargo install --git https://github.com/ch32-rs/wlink` or download a binary from the [Nightly Release page](https://github.com/ch32-rs/wlink/releases/tag/nightly).
+```
+cargo install --git https://github.com/ch32-rs/wlink
+```
+or download a binary from the [Nightly Release page](https://github.com/ch32-rs/wlink/releases/tag/nightly).
 
 > **Note**
 > On Linux, you should install libudev and libusb development lib first.
