@@ -25,7 +25,7 @@ cargo --version
 ```
 
 
---- Windows  
+-- Windows  
 
 1. Download the installer at https://www.rust-lang.org/tools/install and run it.
 
