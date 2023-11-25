@@ -14,14 +14,14 @@ Installing Cargo and Rust
 To install the Rust package manager (Cargo), follow the instructions for your operating system:
 
     -- Linux and MacOS
-    ```
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-    ```
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
     Closed and open 
     Check if the installation worked:
-    ```
-    cargo --version
-    ```
+```
+cargo --version
+```
 
 
     -- Windows  
