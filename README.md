@@ -1,6 +1,6 @@
 # progstick
 Model board progsticks 
-![Progstick 0.1](images/progstick_0.1.rv1_v73_v1.png)
+
 32-bit RISC architecture, compatible with the ARM Cortex-M0 instruction set.
 Clock speed up to 48 MHz.
 20KB flash memory for code.
