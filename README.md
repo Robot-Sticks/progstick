@@ -56,3 +56,20 @@ or download a binary from the [Nightly Release page](https://github.com/ch32-rs/
 > **Note**
 > On Linux, you should install libudev and libusb development lib first.
 > Like `sudo apt install libudev-dev libusb-1.0-0-dev` on Ubuntu.
+
+## Usage
+```
+wlink flash --address 0x08000000 firmware.bin
+```
+> **Note**
+> The firmware.bin file must be in the same directory where the command is executed.
+
+```console
+> wlink flash --address 0x08000000 firmware.bin
+12:10:26 [INFO] WCH-Link v2.10 (WCH-Link-CH32v003)
+12:10:26 [INFO] Attached chip: CH32v003(0x30700518)
+12:10:26 [INFO] Flashing 8068 bytes to 0x08000000
+12:10:27 [INFO] Flash done
+12:10:28 [INFO] Now reset...
+12:10:28 [INFO] Resume executing...
+```
