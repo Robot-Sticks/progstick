@@ -1,23 +1,22 @@
 # progstick
-Model board progsticks 
+Model board progsticks  0.1.rv1 v73
 ![Progstick 0.1](Images/progstick_0.1.rv1_v73_v1.png)
 
 
-32-bit RISC architecture, compatible with the ARM Cortex-M0 instruction set.
-Clock speed up to 48 MHz.
-20KB flash memory for code.
-4KB SRAM.
-23 GPIO pins.
-Integrated peripherals:
-10-bit ADC
-Analog comparators
-PWM
-UARTs
-SPI
-I2C
-Timers
-Watchdog timer
-Support for low power and sleep modes.
+- 32-bit RISC-V architecture
+- Clock speed up to 48 MHz.
+- 20KB flash memory for code.
+- 4KB SRAM.
+- 23 GPIO pins.
+- 10-bit ADC
+- Analog comparators
+- PWM
+- UARTs
+- SPI
+- I2C
+- Timers
+- Watchdog timer
+- Support for low power and sleep modes.
 
 ## Prerequisites
 
