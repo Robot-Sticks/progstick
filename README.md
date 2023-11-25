@@ -6,14 +6,15 @@ Model board progsticks
 
 ## Prerequisites
 
-### - Cargo
+- Cargo
 Install Cargo:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-#### Installing Cargo
+
+ Installing Cargo
 
 To install the Rust package manager (Cargo), follow the instructions for your operating system:
 
-##### Linux and MacOS
+-- Linux and MacOS
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
@@ -24,7 +25,7 @@ cargo --version
 ```
 
 
-## Windows  
+--- Windows  
 
 1. Download the installer at https://www.rust-lang.org/tools/install and run it.
 
@@ -45,3 +46,6 @@ If you have any issues installing, open a ticket with the error.
 
 ### - Hardware
 WCHLink-E (Only work with WCHLink-E, no WCHLink).
+[Buy in Aliexpress](https://www.aliexpress.us/w/wholesale-WCHLink%2525252dE.html)
+
+
