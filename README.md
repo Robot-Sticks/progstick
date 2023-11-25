@@ -6,8 +6,10 @@ Model board progsticks
 
 ## Prerequisites
 
-- Cargo
-Install Cargo:
+### Cargo
+Cargo is the package manager for the Rust programming language. It is included by default when you install Rust.
+
+Install Cargo and Rust:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
  Installing Cargo
@@ -47,5 +49,7 @@ If you have any issues installing, open a ticket with the error.
 ### - Hardware
 WCHLink-E (Only work with WCHLink-E, no WCHLink).
 [Buy in Aliexpress](https://www.aliexpress.us/w/wholesale-WCHLink%2525252dE.html)
+
+
 
 
