@@ -1,7 +1,6 @@
-# progstick
-Model board progsticks  0.1.rv1 v73
+# Progstick
+## Model board progsticks  0.1.rv1 v73
 ![Progstick 0.1](Images/progstick_0.1.rv1_v73_v1.png)
-
 
 - 32-bit RISC-V architecture
 - Clock speed up to 48 MHz.
@@ -17,8 +16,6 @@ Model board progsticks  0.1.rv1 v73
 - Timers
 - Watchdog timer
 - Support for low power and sleep modes.
-
-## Prerequisites
 
 # Installation
 
