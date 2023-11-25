@@ -14,9 +14,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 To install the Rust package manager (Cargo), follow the instructions for your operating system:
 
 ##### Linux and MacOS
-\
+```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-\```
+```
 
 - Hardware
 WCHLink-E (Only work with WCHLink-E, no WCHLink).
