@@ -93,7 +93,9 @@ wlink flash --address 0x08000000 firmware.bin
 # Compile w/ Eclipse - MounRiver Version
 
 ## Windows - MounRiver Version
-[Download](http://file.mounriver.com/upgrade/MounRiver_Update_V191.zip)
+```
+http://www.mounriver.com/download#:~:text=MounRiver_Studio_Setup_V191
+```
 ## Mac
 ```
   cd /opt && unzip ~/Downloads/MRS_Toolchain_MAC_V170/xpack-riscv-none-embed-gcc-8.2.0.zip
@@ -113,4 +115,8 @@ wlink flash --address 0x08000000 firmware.bin
 [Download x86](http://file.mounriver.com/upgrade/MounRiver_Studio_Community_Linux_x86_V160.tar.xz)
 
 
-
+#Hardware
+## Conections
+PD5 --- RX
+GND --- GND
+VCC --- 3VC
