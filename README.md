@@ -88,3 +88,18 @@ wlink flash --address 0x08000000 firmware.bin
 12:10:28 [INFO] Now reset...
 12:10:28 [INFO] Resume executing...
 ```
+
+
+# Compile w/ Eclipse - MounRiver Version
+
+## Windows
+![Download](http://file.mounriver.com/upgrade/MounRiver_Update_V191.zip)
+## Mac
+![Download](http://file.mounriver.com/tools/MRS_Toolchain_MAC_V191.zip)
+## Linux
+![x64](http://file.mounriver.com/upgrade/MounRiver_Studio_Community_Linux_x64_V160.tar.xz)
+
+![x86](http://file.mounriver.com/upgrade/MounRiver_Studio_Community_Linux_x86_V160.tar.xz)
+
+
+
