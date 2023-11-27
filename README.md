@@ -92,14 +92,25 @@ wlink flash --address 0x08000000 firmware.bin
 
 # Compile w/ Eclipse - MounRiver Version
 
-## Windows
+## Windows - MounRiver Version
 [Download](http://file.mounriver.com/upgrade/MounRiver_Update_V191.zip)
 ## Mac
-[Download](http://file.mounriver.com/tools/MRS_Toolchain_MAC_V191.zip)
-## Linux
-[x64](http://file.mounriver.com/upgrade/MounRiver_Studio_Community_Linux_x64_V160.tar.xz)
+```
+  cd /opt && unzip ~/Downloads/MRS_Toolchain_MAC_V170/xpack-riscv-none-embed-gcc-8.2.0.zip
+  export PATH=/opt/xpack-riscv-none-embed-gcc-8.2.0/bin:$PATH
+  git clone https://github.com/unixbigot/ch32v_evt_makefile_gcc_project_template.git -b macos_generate_fix
+  cd ch32v_evt_makefile_gcc_project_template
+  ./generate_project_from_evt.sh ch32v003f4u6
+  make
+```
+[Reference](https://github.com/Community-PIO-CH32V/platform-ch32v/issues/25#issuecomment-1537077546)
+> **Note**
+> Everything is very recent, we are testing.
 
-[x86](http://file.mounriver.com/upgrade/MounRiver_Studio_Community_Linux_x86_V160.tar.xz)
+## Linux
+[Download x64](http://file.mounriver.com/upgrade/MounRiver_Studio_Community_Linux_x64_V160.tar.xz)
+
+[Download x86](http://file.mounriver.com/upgrade/MounRiver_Studio_Community_Linux_x86_V160.tar.xz)
 
 
 
