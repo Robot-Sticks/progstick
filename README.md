@@ -58,6 +58,40 @@ void loop() {
 }
 
 ```
+
+## Motor
+```
+#define LED_PIN PC3
+#define ML1_PIN PC0
+#define ML2_PIN PC7
+#define M1_PIN PC6
+#define M2_PIN PC5
+
+void setup() {
+
+  pinMode(LED_PIN, OUTPUT);
+  pinMode(ML1_PIN, OUTPUT);
+  pinMode(ML2_PIN, OUTPUT);
+  pinMode(M1_PIN, OUTPUT);
+  pinMode(M2_PIN, OUTPUT);
+
+}
+
+void loop() {
+  digitalWrite(LED_PIN, LOW);  
+  digitalWrite(ML1_PIN, HIGH);  
+  digitalWrite(ML2_PIN, LOW);  
+  digitalWrite(M1_PIN, HIGH);  
+  digitalWrite(M2_PIN, LOW);  
+  delay(1000);                     
+  digitalWrite(ML1_PIN, LOW);  
+  digitalWrite(ML2_PIN, LOW); 
+  digitalWrite(LED_PIN, HIGH); 
+  digitalWrite(M1_PIN, LOW); 
+  digitalWrite(M2_PIN, LOW); 
+  delay(1000);
+}
+```
 # Installation other Operating System
 
 > **Note**
