@@ -23,7 +23,26 @@
 - Watchdog timer
 - Support for low power and sleep modes.
 
-# Installation
+# Arduino IDE 
+> **Note**
+> ONLY Windows
+
+## How to use
+
+You can add this software package directly on the IDE through the [Arduino Boards Manager](https://www.arduino.cc/en/guide/cores).
+
+Add the following link in the "*Additional Boards Managers URLs*" field:
+```
+https://github.com/openwch/board_manager_files/raw/main/package_ch32v_index.json
+```
+
+Then you can search for "**wch**" through the "**board manager**", find the installation package, and install it.
+
+
+# Installation other Operating System
+
+> **Note**
+> Testing 
 
 ## Prerequisites
 
@@ -120,9 +139,3 @@ http://www.mounriver.com/download#:~:text=MounRiver_Studio_Setup_V191
 
 [Download x86](http://file.mounriver.com/upgrade/MounRiver_Studio_Community_Linux_x86_V160.tar.xz)
 
-
-#Hardware
-## Conections
-PD5 --- RX
-GND --- GND
-VCC --- 3VC
