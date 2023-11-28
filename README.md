@@ -4,7 +4,9 @@
 ![PINOUT](Images/progstick_0.1.rv1_v73_pinout.png)
 
 
-[Pinout](Documentation/progstick_0.1.rv1_v73_pinout.pdf)
+[Pinout PDF](Documentation/progstick_0.1.rv1_v73_pinout.pdf)
+
+## Technical characteristics
 
 - 32-bit RISC-V architecture
 - Clock speed up to 48 MHz.
