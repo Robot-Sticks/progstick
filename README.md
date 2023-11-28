@@ -38,7 +38,26 @@ https://github.com/openwch/board_manager_files/raw/main/package_ch32v_index.json
 
 Then you can search for "**wch**" through the "**board manager**", find the installation package, and install it.
 
+## Blink
+```
+#define LED_PIN D5
 
+void setup() {
+
+  pinMode(LED_PIN, OUTPUT);
+
+}
+
+void loop() {
+  digitalWrite(LED_PIN, LOW);
+
+  delay(1000);
+  digitalWrite(LED_PIN, HIGH);
+  delay(1000);
+
+}
+
+```
 # Installation other Operating System
 
 > **Note**
